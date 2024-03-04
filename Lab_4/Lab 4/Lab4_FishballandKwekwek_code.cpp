@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+int dummy(int x){
+    int ret = x * 19;
+    return ret;
+}
+
 int multiply(int x, int y) {
     //Assign product to be 0 initially
     int product = 0;
