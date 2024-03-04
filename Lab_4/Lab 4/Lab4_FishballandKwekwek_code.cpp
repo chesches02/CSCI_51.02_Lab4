@@ -51,6 +51,12 @@ int main() {
     product = multiply(x, y);
     cout << product << endl;
 
-    
+    cout << "Please input a number and press Enter:";
+    cin >> x; 
+    cout << "Please input a number and press Enter:";
+    cin >> y;
+    cout << x<< "*"<<y<< "=";
+    product = multiply(x, y);
+    cout << product << endl;
     return 0;
 }
